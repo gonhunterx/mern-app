@@ -9,7 +9,6 @@ import {
     FormControl,
     useTheme,
     useMediaQuery,
-    Input
 } from '@mui/material';
 import {
     Search,
@@ -56,7 +55,7 @@ const Navbar = () => {
                 }
             }}
             >
-                Sociopedia
+                JadonJS
             </Typography>
             {isNonMobileScreens && (
                 <FlexBetween backgroundColor={neutralLight} borderRadius="9px"
