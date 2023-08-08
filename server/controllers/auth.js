@@ -1,6 +1,6 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import User from "../models/user.js";
+import User from "../models/User.js";
 
 // Must create user.js before auth.js file. Also creating spreadsheets with the objects and their type is important
 // for structure of the backend. 
